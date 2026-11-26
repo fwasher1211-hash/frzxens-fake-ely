@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fake-elytra",
+  "version": "${version}",
+  "name": "Fake Elytra",
+  "description": "Client-side, visual-only elytra. Wear a copper chestplate to show elytra wings, double-tap jump in the air to glide (only on your screen).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["fake-elytra.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
